@@ -1,0 +1,187 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #333 font-size: 14px;
+    font-weight: 500;
+   
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+/* Шапка */
+.header_menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn_sort{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+
+}
+.btn_sort button{
+    margin-left: 20px;
+
+
+}
+img {
+    height: 25px;
+    margin-right: 50px;
+}
+
+.navbar_link {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #333
+}
+.navbar_link:hover{
+    background-color: #ededed;
+    border-radius: 50px;
+    padding: 7px 10px;
+
+
+}
+.image-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.header_mane {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Контент */
+.mp_card-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.mp_card {
+    margin: 0 5px 50px 10px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.mp_card_img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 35px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mp_card_img:hover {
+    width: 300px;
+    transform: scale(1.2) ;
+    transition: 0.3s ease-in-out;
+}
+.mp_card_info-container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mp_card_info_name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.mp_card_info_place {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.mp_card_info_date {
+    font-size: 12px;
+}
+
+.mp_card_info_bt_btbuy {
+    display: inline-block;
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.mp_card_info_bt_btbuy:hover{
+    background-color: rgb(241, 241, 107);
+
+
+}
+/* Подвал */
+.footer{
+    background-color: #ededed;
+    height: 300px;
+    padding: 50px;
+
+}
+.footer_menu {
+    width: 1200px;
+
+}
+.footer__menu-item__title{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+
+}
+.footer__menu-item__link{
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+
+
+}
+.list-unstyled+.list-unstyled{
+    margin-top: 15px;
+}
+.footer__menu-item__link:hover{
+    color:red;
+
+
+}
+
+.list-unstyled{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.footer__menu-item__policy{
+    font-size: 8px;
+
+}
+.social-icons{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+
+
+}
+/* Адаптив */
+@media (max-width: 1100px) {
+    .header_menu{
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+     
+    }
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Стиль с адаптивом</title>
+</head>
+<div class="container">
+    <!-- Меню -->
+    <div class="row  "> 
+        <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid  header_menu ">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div class="container"> <img src="upload/logo.png" alt="Логотип сайта Стиль"> 
+                          </li>
+                          <li class="nav-item">
+                            <a class="navbar_link" href="#">Афиша</a> 
+                          </li>
+                          <li class="nav-item">
+                            <a class="navbar_link" href="#">О нас</a> 
+                          </li>
+                          <li class="nav-item">
+                            <a class="navbar_link" href="#">Поддержка</a> 
+                          </li>
+                          <li class="nav-item">
+                            <a class="navbar_link" href="#">Сотрудничество</a> 
+                          </li>
+                      </ul>
+                  </div>
+            </div>
+        </nav>
+    </div>
+</div>        
+
+    <div class="image-block"> <img src="upload/stylecover.png" alt="Обложка сайта Стиль"> </div>
+<div class="container">
+    <div class="header">
+        <h1 class="header_mane">Афиша</h1> </div>
+        <div class="btn_sort">
+            <button type="button" data-filter="all" class="btn btn-warning">Все</button>
+            <button type="button " data-filter=".category-a" class="btn btn-warning">Новинки</button>
+            <button type="button" data-filter=".category-b" class="btn btn-warning">Популярные</button>
+        </div>
+    <div class="mp_card-container">
+        <div class="mp_card mix category-a" data-order="1"> 
+            <img src="upload/mp1.jpg" alt="Афиша мероприятия сайта Стиль" class="mp_card_img">
+            <div class="mp_card_info-container">
+                <h2 class="mp_card_info_name">BUSHIDO ZHO</h2>
+                <div class="mp_card_info_description-container">
+                    <p class="mp_card_info_place">Саратов · ONYX</p>
+                    <p class="mp_card_info_date">14 июня 2023 · 19:00</p>
+                </div>
+                <div >
+                    <button onclick="window.location.href = 'https://afisha.yandex.ru/saratov/concert/bushido-zho-2023-06-14'" class="mp_card_info_bt_btbuy">Купить билеты</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mp_card mix category-b" data-order="2"> <img src="upload/mp2.jpg" alt="Афиша мероприятия сайта Стиль" class="mp_card_img">
+            <div class="mp_card_info-container">
+                <h2 class="mp_card_info_name">Три дня дождя</h2>
+                <div class="mp_card_info_description-container">
+                    <p class="mp_card_info_place">Саратов · ONYX</p>
+                    <p class="mp_card_info_date">11 июня 2023 · 19:00</p>
+                </div>
+                <div>
+                    <button onclick="window.location.href = 'https://saratov.qtickets.events/60619-tri-dnya-dozhdya-saratov-11-iyunya-onyx'" class="mp_card_info_bt_btbuy">Купить билеты</button>
+                </div>
+            </div>
+        </div>
+        <div class="mp_card"> <img src="upload/mp3.jpg" alt="Афиша мероприятия сайта Стиль" class="mp_card_img">
+            <div class="mp_card_info-container">
+                <h2 class="mp_card_info_name">Boulevard Depo</h2>
+                <div class="mp_card_info_description-container">
+                    <p class="mp_card_info_place">Саратов · ONYX</p>
+                    <p class="mp_card_info_date">14 мая 2023 · 19:00</p>
+                </div>
+                <div >
+                    <button onclick="window.location.href = 'https://saratov.qtickets.events/65433-boulevard-depo-v-saratove-2023'" class="mp_card_info_bt_btbuy">Купить билеты</button>
+                </div>
+            </div>
+        </div>
+        <div class="mp_card mix category-b" data-order="2" > <img src="upload/mp4.jpg" alt="Афиша мероприятия сайта Стиль" class="mp_card_img">
+            <div class="mp_card_info-container">
+                <h2 class="mp_card_info_name">Мэйби Бэйби</h2>
+                <div class="mp_card_info_description-container">
+                    <p class="mp_card_info_place">Саратов · Автодор Арена</p>
+                    <p class="mp_card_info_date">28 мая 2023 · 19:00</p>
+                </div>
+                <div >
+                    <button onclick="window.location.href = 'https://saratov.qtickets.events/64775-meybi-beybi-saratov-28-maya?utm_source=ss_landing&utm_medium=ss_landing&utm_campaign=ss_landing'" class="mp_card_info_bt_btbuy">Купить билеты</button>
+                </div>
+            </div>
+        </div>
+        <div class="mp_card category-a" data-order="1"> <img src="upload/mp5.png" alt="Афиша мероприятия сайта Стиль" class="mp_card_img">
+            <div class="mp_card_info-container">
+                <h2 class="mp_card_info_name">Просто Лера</h2>
+                <div class="mp_card_info_description-container">
+                    <p class="mp_card_info_place">Саратов · Machine Head</p>
+                    <p class="mp_card_info_date">16 мая 2023 · 19:00</p>
+                </div>
+                <div >
+                    <button onclick="window.location.href = 'https://saratov.qtickets.events/63350-prosto-lera-v-saratove-16-maya'" class="mp_card_info_bt_btbuy">Купить билеты</button>
+                </div>
+            </div>
+        </div>
+        <div class="mp_card category-b" data-order="2"> <img src="upload/mp5.png" alt="Афиша мероприятия сайта Стиль" class="mp_card_img">
+            <div class="mp_card_info-container">
+                <h2 class="mp_card_info_name">Просто Лера</h2>
+                <div class="mp_card_info_description-container">
+                    <p class="mp_card_info_place">Саратов · Machine Head</p>
+                    <p class="mp_card_info_date">16 мая 2023 · 19:00</p>
+                </div>
+                <div >
+                    <button onclick="window.location.href = 'https://saratov.qtickets.events/63350-prosto-lera-v-saratove-16-maya'" class="mp_card_info_bt_btbuy">Купить билеты</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer class="footer">
+        <div class="row">
+        <ul class="footer_menu d-flex justify-content-around">
+            <!-- <div class="column"></div> -->
+            <li class="list-unstyled">
+                <ul>
+                    <li class="list-unstyled">
+                       <a href="" class="footer__menu-item__title footer__menu-item__link">Стиль</a> 
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class="footer__menu-item__link">Справка</a>  
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="" class="footer__menu-item__link">   Возврат билетов</a>  
+                    </li>
+                </ul>
+
+            </li>
+            <li class="list-unstyled">
+                <ul>
+                    <li class="list-unstyled">
+                        <a href="" class="footer__menu-item__link footer__menu-item__title">   Партнерам и организаторам</a>  
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="" class="footer__menu-item__link">   Организаторам мероприятий</a>  
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="" class="footer__menu-item__link">  Инвесторам</a>  
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="" class="footer__menu-item__link"> Артистам</a>  
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="footer_menu d-flex justify-content-around" >
+            <li class="list-unstyled">
+                <ul style="padding: 0;">
+                    <li class="list-unstyled">
+                        <a href="" class="footer__menu-item__policy ">© 2019-2023 «Стиль»  Все права защищены</a>  
+                    </li>
+                </ul>
+                    
+            </li>
+            <li class="list-unstyled " >
+                <ul class=" d-flex align-items-end " >
+                    <li class="list-unstyled " >
+                        <img src="./upload/vk.png"  class="social-icons"  alt="" srcset="">
+                    </li>
+                    <li class="list-unstyled " style="justify-content: flex-end;">
+                        <img src="./upload/telegram.png" class="social-icons" alt="" srcset="">
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+  </div>
+       
+    </footer>
+
+    <script src="./mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
